@@ -40,11 +40,26 @@ nav a { color: #fff; text-decoration: none; }
 }
 
 /* Target individual images for custom positioning */
-.about-banner img:nth-child(1) { object-position: center top; }  /* collage1.jpg - adjust as needed */
+.about-banner img:nth-child(1) { object-position: center center; }  /* collage1.jpg - adjust as needed */
 .about-banner img:nth-child(2) { object-position: center center; }  /* collage2.jpg - adjust as needed */
 .about-banner img:nth-child(3) { object-position: center center; }  /* collage3.jpg - adjust as needed */
 .about-banner img:nth-child(4) { object-position: center center; }  /* collage4.jpg - adjust as needed */
-.about-banner img:nth-child(5) { object-position: center 20%; }
+.about-banner img:nth-child(5) { object-position: center center; }  /* collage5.jpg - adjust as needed */
+
+/* About Text Content */
+.about-content {
+  max-width: 800px;
+  margin: 2rem auto 0;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.about-content p {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
 
 
 /* Section */
