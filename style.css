@@ -199,3 +199,22 @@ nav a { color: #fff; text-decoration: none; font-size: 1rem; }
 
 /* Footer */
 footer { text-align: center; padding: 1rem; background: #2f4f4f; color: #fff; margin-top: 2rem; }
+
+#resume {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#resume h2 {
+  margin-bottom: 20px;
+}
+
+#resume p {
+  margin-bottom: 20px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
